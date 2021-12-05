@@ -7,7 +7,7 @@ def MakeHtml(content, file_name = 'index', bypass_html = false)
     <!DOCTYPE html>
     <html>
       <head>
-        <title>Html generator</title>
+        <title>Created HTML</title>
         <style type="text/css">
         body {
           font-size: 14px;
