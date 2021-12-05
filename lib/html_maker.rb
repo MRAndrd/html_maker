@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-def MakeHtml(content, file_name = 'index', bypass_html = false)
+def make_html(content, file_name = 'index', bypass_html = false)
   bypass_html ? content : content.gsub!(%r{<([^>]+?)([^>]*?)>(.*?)</\1>}, '')
   output_file = File.expand_path("#{file_name}.html")
   file_html = <<~HTML

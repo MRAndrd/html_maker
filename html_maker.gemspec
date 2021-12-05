@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name        = 'html_maker'
-  s.version     = '0.0.1'
+  s.version     = '0.0.2'
   s.summary     = 'Content to HTML'
   s.description = 'make content to html'
   s.authors     = ['Maxym Rudenko']
